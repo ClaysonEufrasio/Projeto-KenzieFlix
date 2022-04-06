@@ -1,0 +1,142 @@
+body {
+    background-color: black;
+}
+
+section {
+    padding-top: 4;
+    padding: 3px 80px;
+    margin: auto;
+    width: 700px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: blue;
+    margin-bottom: 40px;
+}
+
+header h2 {
+    color: white;
+    padding-bottom: 20px;
+}
+
+section ul {
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+
+section ul li {
+    width: 100%;
+    max-width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+li p {
+    text-align: center;
+    margin-top: 170px;
+    color: rgb(168, 168, 168);
+}
+
+li:hover p {
+    color: #ffffff;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    margin-bottom: 41px;
+    margin-top: 100px;
+    border: 1px solid #ffffff;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #ffffff;
+}
+
+.img01 {
+    width: 158px;
+    height: 158px;
+    background-image: url("usopp.jpg");
+    background-repeat: no-repeat;
+    background-position: 32% 70%;
+    background-size: 200px 200px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+}
+
+.img01:hover {
+    background-position: -125px -42px;
+    background-size: 400px 400px;
+    border: 1px solid white;
+    color: #ffffff;
+}
+
+.img02 {
+    width: 158px;
+    height: 158px;
+    background-image: url("zoro.jpg");
+    background-repeat: no-repeat;
+    background-position: 32% 26%;
+    background-size: 200px 183px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+}
+
+.img02:hover {
+    background-position: -120px -16px;
+    background-size: 400px 400px;
+    border: 1px solid white;
+}
+
+.img03 {
+    width: 158px;
+    height: 158px;
+    background-image: url("barbabranca.jpg");
+    background-repeat: no-repeat;
+    background-position: 32% 26%;
+    background-size: 200px 183px;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+}
+
+.img03:hover {
+    background-position: -113px -48px;
+    background-size: 400px 400px;
+    border: 1px solid white;
+}
+
+.img04 {
+    width: 158px;
+    height: 158px;
+    background-image: url("add.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100px 100px;
+    background-color: #ffffff24;
+    border: 1px solid transparent;
+}
+
+.img04:hover {
+    border: 1px solid white;
+}
